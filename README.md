@@ -34,7 +34,7 @@ Clone the repository and catkin_make (# note that you will create a new workspac
 	source /devel/setup.bash
 ```
 
-## 3.Run on EuRoC dataset
+## 3. Run on EuRoC dataset
 
 Download [EuRoC MAV Dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets). 
 
@@ -55,7 +55,7 @@ Now you run PL-VINS in the ROS RViZ.
 **Note that**: if you want obtain motion trajectory and compare it to your method. Please modify the ouput paths: /PL-VINS/vins_estimator/src/visualization.cpp (trajectory without loop) and /PL-VINS/pose_graph/src/pose_graph.cpp (trajectory with loop)
 
 
-## 4 Related Papers
+## 4. Related Papers
 
 - **PL-VINS: Real-Time Monocular Visual-Inertial SLAM with Point and Line**.
 
