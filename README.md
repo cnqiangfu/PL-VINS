@@ -18,10 +18,9 @@ Ubuntu 18.04. ROS Kinetic, please google it.
 Eigen 3.3.4 + OpenCV 3.2+ Cere-solver: [Ceres Installation](http://ceres-solver.org/installation.html), remember to **sudo make install**.
 
 ## 2. Build PL-VINS on ROS
-Creat your workspace:
-Clone the repository and catkin_make:
+Clone the repository and catkin_make (# note that you will create a new workspace named *catkin_plvins*):
 ```
-	mkdir -p ~/catkin_plvins/src    # note that you will create a new workspace named catkin_plvins
+	mkdir -p ~/catkin_plvins/src    
 	cd ~/catkin_plvins/
 	git clone https://github.com/cnqiangfu/PL-VINS.git
 ```
