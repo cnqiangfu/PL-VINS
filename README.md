@@ -59,12 +59,13 @@ tbd
 ```
 
 This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previsous work [3].
+```
+[1] Vins-mono: A robust and versatile monocular visual-inertial state estimator
 
-[1]Vins-mono: A robust and versatile monocular visual-inertial state estimator
+[2] Pl-vio: Tightly-coupled monocular visual-inertial odometry using point and line features
 
-[2]Pl-vio: Tightly-coupled monocular visual-inertial odometry using point and line features
-
-[3]A robust RGB-D SLAM system with points and lines for low texture indoor environments
+[3] A robust RGB-D SLAM system with points and lines for low texture indoor environments
+```
 
 *If you think aforementioned works is useful for research, please cite them.*
 
