@@ -19,10 +19,9 @@ Eigen 3.3.4 + OpenCV 3.2+ Cere-solver: [Ceres Installation](http://ceres-solver.
 Creat your workspace:
 Clone the repository and catkin_make:
 ```
-	mkdir -p ~/catkin_plvins/src
+	mkdir -p ~/catkin_plvins/src    # note that we create a new workspace named catkin_plvins
 	cd ~/catkin_plvins/
 	git clone https://github.com/cnqiangfu/PL-VINS.git
-
 ```
 *Notice: before the catkin_make, (1) you need to go through /home/<your name>/catkin_plvins/src/PL-VINS/feature_tracker/CMakeLists.txt, see the sign # Important in the CMakeLists.txt, and modify two absolute paths for correctly finding the modified LSD algorithm. (2) and opencv 3.2*
 
@@ -40,7 +39,6 @@ run in the ~/catkin_plvins/
 ```
 	roslaunch plvins_show_linepoint.launch
 	rosbag play YOUR_PATH_TO_DATASET/MH_05_difficult.bag
-
 ```
 *or roslaunch plvins_estimator euroc_fix_extrinsic.launch this launch runs without loop)*
 **Notice: ** Please play your bag if you compute is i7 CPU.
@@ -51,8 +49,8 @@ run in the ~/catkin_plvins/
 
 ```
 tbd
-
 ```
+
 This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previsous work [3].
 
 [1]Vins-mono: A robust and versatile monocular visual-inertial state estimator
