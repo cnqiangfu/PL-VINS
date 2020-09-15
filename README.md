@@ -19,11 +19,11 @@ Eigen 3.3.4 + OpenCV 3.2+ Cere-solver: [Ceres Installation](http://ceres-solver.
 Creat your workspace:
 Clone the repository and catkin_make:
 ```
-	mkdir -p ~/catkin_plvins/src    # note that we create a new workspace named catkin_plvins
+	mkdir -p ~/catkin_plvins/src    # note that you will create a new workspace named catkin_plvins
 	cd ~/catkin_plvins/
 	git clone https://github.com/cnqiangfu/PL-VINS.git
 ```
-*Notice: before the catkin_make, (1) you need to go through /home/<your name>/catkin_plvins/src/PL-VINS/feature_tracker/CMakeLists.txt, see the sign # Important in the CMakeLists.txt, and modify two absolute paths for correctly finding the modified LSD algorithm. (2) and opencv 3.2*
+**Notice**: before the catkin_make, (1) you need to go through /home/<your name>/catkin_plvins/src/PL-VINS/feature_tracker/CMakeLists.txt, see the sign # Important in the CMakeLists.txt, and modify two absolute paths for correctly finding the modified LSD algorithm. (2) and opencv 3.2*
 
 ```	
 	catkin_make
