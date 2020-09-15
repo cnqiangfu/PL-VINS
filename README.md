@@ -24,7 +24,7 @@ Clone the repository and catkin_make (# note that you will create a new workspac
 	cd ~/catkin_plvins/
 	git clone https://github.com/cnqiangfu/PL-VINS.git
 ```
-**Notice**: before the catkin_make, (1) you need to go through /home/<your name>/catkin_plvins/src/PL-VINS/feature_tracker/CMakeLists.txt, see the sign # Important in the CMakeLists.txt, and modify two absolute paths for correctly finding the modified LSD algorithm. (2) and opencv 3.2*
+**Notice**: before the catkin_make,  you need to go through /PL-VINS/feature_tracker/CMakeLists.txt, see the sign **# Important** in the CMakeLists.txt, and modify two absolute paths for correctly finding (1) the modified LSD algorithm, and you also need make sure find (2) OpenCV 3.2
 
 ```	
 	catkin_make
