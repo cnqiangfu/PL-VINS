@@ -2,7 +2,7 @@
 
 This system can run higher accuracy than VINS-Mono at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. 
 
-Thanks Jialong Wang (湖南大学大机器人与视觉感知国家工程实验室研三) for helping me code this system, he is good SLAM boy and looking for a related work. If you can provides a nice Job Opportunity, please contact Jialong Wang <slamdragon@qq.com > 
+Thank Jialong Wang (湖南大学大机器人与视觉感知国家工程实验室研三) for helping me code this system, he is good SLAM boy and looking for a related work. If you can provides a nice Job Opportunity, please contact Jialong Wang <slamdragon@qq.com > 
 
 **DemoShow**: [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
 
@@ -74,7 +74,7 @@ This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previsous wo
 
 ## 5. Acknowledgements
 
-Thanks Dr. Qin Tong, Prof. Shen (VINS-Mono), Yijia He (PL-VIO), etc very much.
+Thank Dr. Qin Tong, Prof. Shen (VINS-Mono), Yijia He (PL-VIO), etc very much.
 
 ## 6. Licence
 The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
