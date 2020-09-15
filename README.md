@@ -1,10 +1,10 @@
-# PL-VINS
-##  Real-Time Monocular Visual-Inertial SLAM with Point and Line
-
+# PL-VINS: Real-Time Monocular Visual-Inertial SLAM with Point and Line
 
 This system can run higher accuracy than VINS-Mono at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. 
 
 Thanks Jialong Wang (湖南大学大机器人与视觉感知国家工程实验室研三)　for help me to code this system, he is good SLAM boy and is looking for a related work. If you can provides a nice Job Opportunity, please contact Jialong Wang <slamdragon@qq.com > 
+
+Demo [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://youtu.be/IV5QEfI_MFc)
 
 ## 1. Prerequisites
 1.1 **Ubuntu** and **ROS**
