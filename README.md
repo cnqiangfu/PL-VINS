@@ -3,7 +3,8 @@
 
 
 This system can run higher accuracy than VINS-Mono at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. 
-Thanks Jialong Wang for help me to code this system, he is good SLAM boy and is looking for a related work. If you can provides a Job Opportunity, please contact Jialong Wang <slamdragon@qq.com > (王同学湖南大学大机器人与视觉感知国家工程实验室研三，正在找工作)
+
+Thanks Jialong Wang (湖南大学大机器人与视觉感知国家工程实验室研三)　for help me to code this system, he is good SLAM boy and is looking for a related work. If you can provides a nice Job Opportunity, please contact Jialong Wang <slamdragon@qq.com > 
 
 ## 1. Prerequisites
 1.1 **Ubuntu** and **ROS**
@@ -18,17 +19,16 @@ Eigen 3.3.4 + OpenCV 3.2+ Cere-solver: [Ceres Installation](http://ceres-solver.
 Creat your workspace:
 Clone the repository and catkin_make:
 ```
-    mkdir -p ~/catkin_plvins/src
+	mkdir -p ~/catkin_plvins/src
 	cd ~/catkin_plvins/
-    git clone https://github.com/cnqiangfu/PL-VINS.git
+	git clone https://github.com/cnqiangfu/PL-VINS.git
 
 ```
 *Notice: before the catkin_make, (1) you need to go through /home/<your name>/catkin_plvins/src/PL-VINS/feature_tracker/CMakeLists.txt, see the sign # Important in the CMakeLists.txt, and modify two absolute paths for correctly finding the modified LSD algorithm. (2) and opencv 3.2*
 
 ```	
 	catkin_make
-    source /devel/setup.bash
-
+	source /devel/setup.bash
 ```
 
 
@@ -38,7 +38,7 @@ Download [EuRoC MAV Dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=km
 
 run in the ~/catkin_plvins/
 ```
-    roslaunch plvins_show_linepoint.launch
+	roslaunch plvins_show_linepoint.launch
 	rosbag play YOUR_PATH_TO_DATASET/MH_05_difficult.bag
 
 ```
@@ -54,8 +54,11 @@ tbd
 
 ```
 This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previsous work [3].
+
 [1]Vins-mono: A robust and versatile monocular visual-inertial state estimator
+
 [2]Pl-vio: Tightly-coupled monocular visual-inertial odometry using point and line features
+
 [3]A robust RGB-D SLAM system with points and lines for low texture indoor environments
 
 *If you think aforementioned works is useful for research, please cite them.*
