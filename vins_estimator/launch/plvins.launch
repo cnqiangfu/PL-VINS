@@ -1,0 +1,33 @@
+<launch>
+    <arg name="config_path" default = "$(find feature_tracker)/../config/euroc/loop.yaml" />
+	  <arg name="vins_path" default = "$(find feature_tracker)/../config/../" />
+
+    <node name="rvizvisualisation" pkg="rviz" type="rviz" output="log" args="-d $(find plvins_estimator)/../config/vins_rviz_config.rviz" />
+
+    <node name="feature_tracker" pkg="feature_tracker" type="feature_tracker" output="log">
+        <param name="config_file" type="string" value="$(arg config_path)" />
+        <param name="vins_folder" type="string" value="$(arg vins_path)" />
+    </node>
+
+    <node name="linefeature_tracker" pkg="feature_tracker" type="LineFeature_tracker" output="log">
+        <param name="config_file" type="string" value="$(arg config_path)" />
+        <param name="vins_folder" type="string" value="$(arg vins_path)" />
+    </node>    
+
+    <node name="plvins_estimator" pkg="plvins_estimator" type="plvins_estimator" output="log">
+       <param name="config_file" type="string" value="$(arg config_path)" />
+       <param name="vins_folder" type="string" value="$(arg vins_path)" />
+    </node>
+
+    <node name="pose_graph" pkg="pose_graph" type="pose_graph" output="screen">
+        <param name="config_file" type="string" value="$(arg config_path)" />
+        <param name="visualization_shift_x" type="int" value="0" />
+        <param name="visualization_shift_y" type="int" value="0" />
+        <param name="skip_cnt" type="int" value="0" />
+        <param name="skip_dis" type="double" value="0" />
+    </node>
+
+	<node name="image_node_b" pkg="image_node_b" type="image_node_b" output="log">
+    </node>		
+</launch>
+
