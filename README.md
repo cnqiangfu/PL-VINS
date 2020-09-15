@@ -65,7 +65,7 @@ Now you run PL-VINS in the ROS RViZ.
 tbd
 ```
 
-This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previsous work [3].
+This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previous work [3].
 ```
 [1] Vins-mono: A robust and versatile monocular visual-inertial state estimator
 
