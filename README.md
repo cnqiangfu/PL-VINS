@@ -48,7 +48,7 @@ roslaunch plvins_estimator euroc_fix_extrinsic.launch
 
 
 
-## 3 Related Papers
+## 4 Related Papers
 
 - **PL-VINS: Real-Time Monocular Visual-Inertial SLAM with Point and Line**.
 
