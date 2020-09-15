@@ -35,7 +35,9 @@ Clone the repository and catkin_make:
 
 ## 3.Run on EuRoC dataset
 
-Download [EuRoC MAV Dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets).
+Download [EuRoC MAV Dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets). 
+
+We suggust you select difficult sequences to test.
 
 run in the ~/catkin_plvins/
 ```
@@ -44,10 +46,12 @@ run in the ~/catkin_plvins/
 ```
 or 
 ```
-roslaunch plvins_estimator euroc_fix_extrinsic.launch 
+roslaunch plvins_estimator euroc_fix_extrinsic.launch *This launch runs without loop* 
 ```
-*This launch runs without loop*
 
+Now you run PL-VINS in the ROS RViZ. 
+
+**Note that**: if you want obtain the trajectory and compare it to your method. Please modify the ouput path of the trajectory: /PL-VINS/vins_estimator/src/visualization.cpp (trajectory without loop) and /PL-VINS/pose_graph/src/pose_graph.cpp
 
 
 ## 4 Related Papers
