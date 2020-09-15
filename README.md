@@ -54,7 +54,7 @@ roslaunch plvins_estimator euroc_fix_extrinsic.launch        #This launch runs w
 
 Now you run PL-VINS in the ROS RViZ. 
 
-**Note that**: if you want obtain the trajectory and compare it to your method. Please modify the ouput paths: /PL-VINS/vins_estimator/src/visualization.cpp (trajectory without loop) and /PL-VINS/pose_graph/src/pose_graph.cpp (trajectory with loop)
+**Note that**: if you want obtain motion trajectory and compare it to your method. Please modify the ouput paths: /PL-VINS/vins_estimator/src/visualization.cpp (trajectory without loop) and /PL-VINS/pose_graph/src/pose_graph.cpp (trajectory with loop)
 
 
 ## 4 Related Papers
