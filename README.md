@@ -45,7 +45,7 @@ run in the ~/catkin_plvins/
 ```
 or 
 ```
-roslaunch plvins_estimator euroc_fix_extrinsic.launch *This launch runs without loop* 
+roslaunch plvins_estimator euroc_fix_extrinsic.launch        #This launch runs without loop
 ```
 
 Now you run PL-VINS in the ROS RViZ. 
