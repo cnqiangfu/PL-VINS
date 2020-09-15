@@ -4,7 +4,7 @@ This system can run higher accuracy than VINS-Mono at the same work frequency on
 
 Thank Jialong Wang (湖南大学大机器人与视觉感知国家工程实验室研三) for helping me code this system, he makes huge contribution in this work. 
 
-**Note that**:Mr Wang is really good SLAM boy and looking for a related work. If you can provides a nice **Job Opportunity**, please contact Jialong Wang <slamdragon@qq.com > .  
+**Note that**: Mr Wang is really good SLAM boy and looking for a related job. If you can provides a nice **Job Opportunity**, please contact Jialong Wang <slamdragon@qq.com > .  
 
 **DemoShow**: [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
 
