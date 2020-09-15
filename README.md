@@ -11,7 +11,7 @@ This respository is an initial version, it will be improved further in the furtu
 ## 1. Prerequisites
 1.1 **Ubuntu** and **ROS**
 
-Ubuntu 18.04. ROS Kinetic, please google it.
+Ubuntu 18.04. ROS Melodic, please google it.
 
 1.2. **Dependency**
 
