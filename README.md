@@ -6,7 +6,7 @@ Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程
 
 **DemoShow**: [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
 
-This respository is an initial version, it will be improved further in the furture.
+This respository is an initial version, it will be improved further in the coming months.
 
 ## 1. Prerequisites
 1.1 **Ubuntu** and **ROS**
