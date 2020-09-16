@@ -27,7 +27,7 @@ Clone the repository and catkin_make (# note that you will create a new workspac
 	echo $ROS_PACKAGE_PATH             # test you have created it successfully
 	git clone https://github.com/cnqiangfu/PL-VINS.git
 ```
-**Notice**: before the second catkin_make, you need to go through /PL-VINS/feature_tracker/CMakeLists.txt, see the sign **# Important** in the CMakeLists.txt, and modify two absolute paths for correctly finding (1) the modified LSD algorithm, and you also need make sure find (2) OpenCV 3.2
+**Notice**: before the second catkin_make, you need to go through /PL-VINS/feature_tracker/CMakeLists.txt, see the sign **# Important** in the CMakeLists.txt, and modify two absolute paths to correctly find the modified LSD algorithm, and you also need make sure find OpenCV 3.2 there.
 
 ```	
 	catkin_make
