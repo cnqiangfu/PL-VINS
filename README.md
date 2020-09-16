@@ -81,5 +81,5 @@ This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previous wor
 Thank Dr. Qin Tong, Dr. Peiliang Li, and Prof. Shen (VINS-Mono); Dr. Yijia He, Ji Zhao, Yue Guo, Wenhao He, and Kui Yuan(PL-VIO) very much.
 
 ## 6. Licence
-The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
+The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.1
 
