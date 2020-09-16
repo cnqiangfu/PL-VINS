@@ -1,6 +1,6 @@
 # PL-VINS: Real-Time Monocular Visual-Inertial SLAM with Point and Line
 
-PL-VINS can yield higher accuracy than VINS-Mono (IROS best Paper, TRO Honorable Mention Best Paper) at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. It is an interesting thing that we find better CPU maybe yield better result whether VINS-Mono or PL-VINS.（Maybe the reason of ROS mechanism）
+PL-VINS can yield higher accuracy than VINS-Mono (IROS best Paper, TRO Honorable Mention Best Paper) at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. It is an interesting thing we find that better CPU maybe yield better result whether VINS-Mono or PL-VINS.（Maybe the reason of ROS mechanism）
 
 Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程实验室研三) for helping me code this system, he makes huge contribution in this work. **By the way**: Mr Wang is really a SLAM enthusiast and looking for a related job. If you can provide a nice **Job Opportunity**, please contact Jialong Wang <slamdragon@qq.com > . 
 
@@ -34,7 +34,7 @@ Clone the repository and catkin_make (# note that you will create a new workspac
 	echo $ROS_PACKAGE_PATH             # test you have created it successfully
 	git clone https://github.com/cnqiangfu/PL-VINS.git
 ```
-**Notice**: before the second catkin_make, you need to go through /PL-VINS/feature_tracker/CMakeLists.txt, see the sign **# Important** in the CMakeLists.txt, and modify two absolute paths to correctly find the modified LSD algorithm, and you also need make sure find OpenCV 3.2 there.
+**Notice**: before the second catkin_make, you need to go through /PL-VINS/feature_tracker/CMakeLists.txt, see the sign **# Important** in the CMakeLists.txt, and modify two absolute paths to correctly find the modified LSD algorithm, and you also need to make sure OpenCV 3.2 there.
 
 ```	
 	catkin_make
