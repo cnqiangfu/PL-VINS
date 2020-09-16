@@ -2,7 +2,7 @@
 
 This system can yield higher accuracy than VINS-Mono (IROS best Paper, TRO Honorable Mention Best Paper) at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. 
 
-Thank Jialong Wang (湖南大学机器人与视觉感知国家工程实验室研三) for helping me code this system, he makes huge contribution in this work. **By the way**: Mr Wang is really a SLAM enthusiast and looking for a related job. If you can provide a nice **Job Opportunity**, please contact Jialong Wang <slamdragon@qq.com > .  
+Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程实验室研三) for helping me code this system, he makes huge contribution in this work. **By the way**: Mr Wang is really a SLAM enthusiast and looking for a related job. If you can provide a nice **Job Opportunity**, please contact Jialong Wang <slamdragon@qq.com > .  
 
 **DemoShow**: [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
 
