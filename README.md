@@ -8,7 +8,7 @@ This respository is an initial version, it will be improved further in the comin
 
 **DemoShow**: [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
 
-[![PL-VINS](http://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+[![PL-VINS](https://youtu.be/IV5QEfI_MFc/0.jpg)](https://youtu.be/IV5QEfI_MFc)
 
 ## 1. Prerequisites
 1.1 **Ubuntu** and **ROS**
