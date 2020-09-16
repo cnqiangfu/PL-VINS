@@ -43,9 +43,7 @@ Clone the repository and catkin_make (# note that you will create a new workspac
 
 ## 3. Run on EuRoC dataset
 
-Download [EuRoC MAV Dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets). 
-
-We suggust you select difficult sequences to test.
+Download [EuRoC MAV Dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets). We suggust you select difficult sequences to test.
 
 run in the ~/catkin_plvins/
 ```
