@@ -4,9 +4,12 @@ This system can yield higher accuracy than VINS-Mono (IROS best Paper, TRO Honor
 
 Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程实验室研三) for helping me code this system, he makes huge contribution in this work. **By the way**: Mr Wang is really a SLAM enthusiast and looking for a related job. If you can provide a nice **Job Opportunity**, please contact Jialong Wang <slamdragon@qq.com > . 
 
+
 ![image](https://github.com/cnqiangfu/PL-VINS/blob/master/support_files/plvins-vinsmono.png)
 
+
 This respository is an initial version, it will be improved further in the coming months.
+
 
 **DemoShow**: [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
 
