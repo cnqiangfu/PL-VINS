@@ -1,6 +1,6 @@
 # PL-VINS: Real-Time Monocular Visual-Inertial SLAM with Point and Line
 
-[PL-VINS](https://arxiv.org/pdf/2009.07462.pdf) (PDF) can yield higher accuracy than VINS-Mono (2018 IROS best Paper, TRO Honorable Mention Best Paper) at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. It is an interesting thing we find that better CPU maybe yield better result whether VINS-Mono or PL-VINS.（Maybe the reason of ROS mechanism）.
+[PL-VINS](https://arxiv.org/pdf/2009.07462.pdf) (PDF) can yield higher accuracy than VINS-Mono (2018 IROS best Paper, TRO Honorable Mention Best Paper) at the same work frequency on a low-power CPU Intel Core i7-10710U @1.10 GHz. It is an interesting thing we find that better CPU maybe yield better result whether VINS-Mono or PL-VINS.（maybe the reason of ROS mechanism）.
 
 Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程实验室研三) for helping me code this system, he makes huge contribution in this work. **By the way**: Mr Wang is really a SLAM enthusiast and looking for a related job. If you can provide a nice **Job Opportunity**, please contact Jialong Wang <slamdragon@qq.com > . 
 
