@@ -86,7 +86,7 @@ This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previous wor
 [3] A robust RGB-D SLAM system with points and lines for low texture indoor environments
 ```
 
-*If you think aforementioned works are useful for your research, please cite them.*
+*If you find aforementioned works are helpful for your research, please cite them.*
 
 ## 5. Acknowledgements
 
