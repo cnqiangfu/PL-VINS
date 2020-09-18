@@ -11,9 +11,9 @@ Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程
 This respository is an initial version, it will be improved further in the coming months.
 
 
-**DemoShow**: [youtube](https://youtu.be/IV5QEfI_MFc) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
+**DemoShow**: [youtube](https://youtu.be/MPf6HufbgdE) or [bilibili](https://www.bilibili.com/video/BV1464y1F7hk/)
 
-[![PL-VINS](https://img.youtube.com/vi/IV5QEfI_MFc/0.jpg)](https://youtu.be/IV5QEfI_MFc)
+[![PL-VINS](https://img.youtube.com/vi/MPf6HufbgdE/0.jpg)](https://youtu.be/MPf6HufbgdE)
 
 ## 1. Prerequisites
 1.1 **Ubuntu** and **ROS**
