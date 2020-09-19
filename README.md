@@ -77,11 +77,11 @@ Now you should be able to run PL-VINS in the ROS RViZ.
 }
 ```
 
-This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previous work [3].
+This paper is developed based on PL-VIO [1], VINS-Mono [2], and [3].
 ```
-[1] Vins-mono: A robust and versatile monocular visual-inertial state estimator
+[1] Pl-vio: Tightly-coupled monocular visual-inertial odometry using point and line features
 
-[2] Pl-vio: Tightly-coupled monocular visual-inertial odometry using point and line features
+[2] Vins-mono: A robust and versatile monocular visual-inertial state estimator
 
 [3] A robust RGB-D SLAM system with points and lines for low texture indoor environments
 ```
@@ -90,7 +90,7 @@ This paper is developed based on VINS-Mono [1], PL-VIO [2], and our previous wor
 
 ## 5. Acknowledgements
 
-Thank Dr. Qin Tong, Dr. Peiliang Li, and Prof. Shen (VINS-Mono); Dr. Yijia He, Ji Zhao, Yue Guo, Wenhao He, and Kui Yuan(PL-VIO) very much.
+Thank Dr. Yijia He, Ji Zhao, Yue Guo, Wenhao He, and Kui Yuan(PL-VIO); Dr. Qin Tong, Dr. Peiliang Li, and Prof. Shen (VINS-Mono) very much.
 
 ## 6. Licence
 The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
