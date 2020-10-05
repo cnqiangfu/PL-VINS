@@ -47,7 +47,7 @@ Download [EuRoC MAV Dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=km
 
 run in the ~/catkin_plvins/
 ```
-	roslaunch plvins_show_linepoint.launch
+	roslaunch plvins_estimator plvins_show_linepoint.launch
 	rosbag play YOUR_PATH_TO_DATASET/MH_05_difficult.bag
 ```
 or 
