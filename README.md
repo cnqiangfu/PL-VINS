@@ -68,12 +68,12 @@ Now you should be able to run PL-VINS in the ROS RViZ.
 
 ```
 @misc{fu2020plvins,
-    title={PL-VINS: Real-Time Monocular Visual-Inertial SLAM with Point and Line},
-    author={Qiang Fu and Jialong Wang and Hongshan Yu and Islam Ali and Feng Guo and Hong Zhang},
-    year={2020},
-    eprint={2009.07462},
-    archivePrefix={arXiv},
-    primaryClass={cs.RO}
+      title={PL-VINS: Real-Time Monocular Visual-Inertial SLAM with Point and Line Features}, 
+      author={Qiang Fu and Jialong Wang and Hongshan Yu and Islam Ali and Feng Guo and Yijia He and Hong Zhang},
+      year={2020},
+      eprint={2009.07462},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
 }
 ```
 
