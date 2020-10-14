@@ -2,7 +2,7 @@
 
 [PL-VINS](https://arxiv.org/pdf/2009.07462.pdf) can yield higher accuracy than VINS-Mono (2018 IROS best Paper, TRO Honorable Mention Best Paper) at the same run rate on a low-power CPU Intel Core i7-10710U @1.10 GHz. 
 
-Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程实验室研三) for helping me code this system, he makes a huge contribution in this work. **BTW**: Mr Wang is really a SLAM enthusiast and looking for a related job. If you can provide a nice Job Opportunity, please contact Jialong Wang <slamdragon@qq.com > . 
+Thank Jialong Wang (湖南大学机器人视觉感知与控制技术国家工程实验室研三) for helping me code this system, he makes a huge contribution in this work. **BTW**: Mr Wang is really a SLAM enthusiast and looking for a related job. If you can provide a nice Opportunity, please contact him <slamdragon@qq.com >. 
 
 
 ![image](https://github.com/cnqiangfu/PL-VINS/blob/master/support_files/plvins-vinsmono.png)
@@ -34,7 +34,7 @@ Clone the repository and catkin_make (# note that you will create a new workspac
 	echo $ROS_PACKAGE_PATH             # test you have created it successfully
 	git clone https://github.com/cnqiangfu/PL-VINS.git
 ```
-**Notice**: before the second catkin_make, you need to go through /PL-VINS/feature_tracker/CMakeLists.txt, see the sign **# Important** in the CMakeLists.txt, and modify two absolute paths to correctly find the modified LSD algorithm, and you also need to make sure OpenCV 3.2 there.
+**Notice**: before the second catkin_make, you need to go through /PL-VINS/feature_tracker/CMakeLists.txt, see the sign **# Important** in the CMakeLists.txt, and modify two absolute paths to correctly find the modified LSD algorithm. You also need to make sure OpenCV 3.2 there.
 
 ```	
 	catkin_make
